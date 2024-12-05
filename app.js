@@ -15,6 +15,9 @@ require( 'express-async-errors' )
 //database
 const connectDB = require( './db/connect' )
 
+//routers
+const authRouter = require( './routes/authRoutes' )
+
 // middleware
 const notFoundMiddleware = require( './middleware/not-found' )
 const errorHandlerMiddleware = require( './middleware/error-handler' )
@@ -30,6 +33,10 @@ app.get( '/', ( req, res ) =>
     res.send( 'E-Commerce API' )
 } )
 
+// routes
+app.use( '/api/v1/auth', authRouter )
+
+// middleware to handle errors
 app.use( notFoundMiddleware ) // middleware to handle not found routes
 app.use( errorHandlerMiddleware ) // middleware to handle errors
 
