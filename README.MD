@@ -65,10 +65,10 @@
 
 #### Handle Password
 
-- [] UserSchema.pre('save') - hook
-- this points to User
-- bcrypt.genSalt - number of rounds
-- bcrypt.hash
+- [x] UserSchema.pre('save') - hook
+- [x] this points to User
+- [x] bcrypt.genSalt - number of rounds
+- [x] bcrypt.hash
 
 #### JWT
 
