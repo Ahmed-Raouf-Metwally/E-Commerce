@@ -376,8 +376,8 @@
 - [] git push heroku master/main
 
 ## License
-[MIT License] (LICENSE)
-Copyright (c) 2024 [Ahmed Abdulraouf Metwally]
+[MIT License](LICENSE)
+Copyright (c) 2024 Ahmed Abdulraouf Metwally
 
 
 <!-- 
