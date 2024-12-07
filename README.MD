@@ -375,6 +375,11 @@
 - [] setup env vars in GUI
 - [] git push heroku master/main
 
+## License
+[MIT License] (LICENSE)
+Copyright (c) 2024 [Ahmed Abdulraouf Metwally]
+
+
 <!-- 
 # E-Commerce API 🛒
 
